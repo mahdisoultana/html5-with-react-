@@ -3,6 +3,6 @@
 @tailwind utilities;
 @layer components {
   .btn-primary {
-    @apply bg-blue-400 font-semibold  shadow-md;
+    @apply bg-blue-400 capitalize text-gray-100  font-semibold  shadow-md p-4 rounded-md m-2;
   }
 }
